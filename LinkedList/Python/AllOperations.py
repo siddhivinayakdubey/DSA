@@ -125,6 +125,112 @@ class LinkedList:
 
 
 
+    def reversingelements(self):
+        array=[]
+        if self.head is None:
+            print("Empty List")
+        else:
+            p=self.head
+            i=0
+            while p is not None:
+                array.append(p.data)
+                i+=1
+                p=p.next
+            q=self.head
+            while q is not None:
+                i-=1
+                q.data=array[i]
+                q=q.next
+
+# SLIDING POINTERS
+    def reversinglinks(self):
+        if self.head is None:
+            print("Empty List")
+        else:
+            p=self.head
+            q=None
+            r=None
+
+            while p is not None:
+                r=q
+                q=p
+                p=p.next
+                q.next=r
+
+            self.head=q
+
+# RECURSIVE REVERSE
+    def revrecursionhelp(self):
+        self.recursiverecursion(None,self.head)
+
+
+    def recursiverecursion(self,q,p):
+        if p is not None:
+            self.recursiverecursion(p,p.next)
+            p.next=q
+        else:
+            self.head=q
+
+
+
+
+
+
+
+    def mergelists(self,list2):
+        first=self.head
+        second=list2.head
+
+        if first.data<second.data:
+            p=q=first
+            first=first.next
+        else:
+            p=q=second
+            second=second.next
+
+
+        while first and second is not  None:
+
+            if first.data<second.data:
+                q.next=first
+                first=first.next
+                q=q.next
+            else:
+                q.next=second
+                second=second.next
+                q=q.next
+
+        if first is not None:
+            q.next=first
+            q=q.next
+
+        if second is not None:
+            q.next=second
+            q=q.next
+
+
+
+    def checkloop(self):
+        if self.head is None:
+            print("Empty linked list")
+        else:
+            p = q = self.head
+            while p and q is not None:
+                p = p.next
+                if (q.next.next is not None):
+                    q = q.next.next
+                else:
+                    print("No loop")
+                    return False
+
+                if (p == q):
+                    print("loop exists")
+                    return True
+
+            return False
+
+
+
 if __name__ == '__main__':
     list=LinkedList()
     list.newnode(5)
