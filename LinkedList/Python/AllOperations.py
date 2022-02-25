@@ -229,6 +229,17 @@ class LinkedList:
 
             return False
 
+    def displaycircular(self):
+        if self.head is None:
+            print("Empty linked list")
+        else:
+            p=self.head
+            flag=0
+            while(p is not self.head or flag==0):
+                flag=1
+                print(p.data)
+                p=p.next
+
 
 
 if __name__ == '__main__':
@@ -240,6 +251,7 @@ if __name__ == '__main__':
     list.newnodeatbegin(1)
     list.newnodeatpos(3,9)
     list.recursionshow()
+
 
 
 
