@@ -47,18 +47,29 @@
 
 def solution(A):
     # write your code in Python 3.6
-    size = max(A)
-    count = size
-    H = [False] * (size + 1)
+    # size = max(A)
+    # count = size
+    # H = [False] * (size + 1)
+    #
+    # for i in range(0, len(A)):
+    #     if (H[A[i]] == True):
+    #         return 0
+    #     if (H[A[i]] == False):
+    #         H[A[i]] = True
+    #         count -= 1
+    #         if (count == 0):
+    #             return 1
+    # return 0
 
-    for i in range(0, len(A)):
-        if (H[A[i]] == True):
-            return 0
-        if (H[A[i]] == False):
-            H[A[i]] = True
-            count -= 1
-            if (count == 0):
-                return 1
+    A.sort()
+    if (len(A) == max(A)):
+        count = 1
+        for i in range(0, len(A)):
+            if A[i] == count:
+                count += 1
+            else:
+                return 0
+        return 1
     return 0
 array=[1,1]
 print(solution(array))
