@@ -74,6 +74,17 @@ class Tree:
             self.postorderstart(p.rchild)
             print(p.data)
 
+    def levelorderiter(self):
+        queue = deque()
+        p = self.root
+        queue.append(p)
+
+        while queue[0] is not None:
+            p = queue.popleft()
+            print(p.data)
+            queue.append(p.lchild)
+            queue.append(p.rchild)
+
 
 
 
