@@ -5,37 +5,40 @@ class Node:
         self.lchild=None
         self.rchild=None
 
+
 class Tree:
     def __init__(self):
         self.root=None
 
-
-
-    def preorder(self):
-        self.preorderecursion(self.root)
-    def preorderecursion(self, p):
-        if p is not None:
-            print(p.data)
-            self.preorderecursion(p.lchild)
-            self.preorderecursion(p.rchild)
-
-    def preorderiter(self):
+    def postorder(self):
         if self.root is None:
             print("Empty Tree")
+        else:
+            self.postorderstart(self.root)
+    def postorderstart(self,p):
+        if p is not None:
+            self.postorderstart(p.lchild)
+            self.postorderstart(p.rchild)
+            print(p.data)
+    def postorderiter(self):
+        if self.root is None:
+            print("Empty list")
         else:
             p=self.root
             stack=deque()
 
             while len(stack) or p is not None:
                 if p is not None:
-                    print(p.data)
                     stack.append(p)
                     p=p.lchild
                 else:
-
-                    p=stack.pop()
-                    p=p.rchild
-
+                    temp=stack.pop()
+                    if temp>0:
+                        stack.append(-temp)
+                        p=temp.rchild
+                    else:
+                        print(temp.data)
+                        temp=None
 
 
 
@@ -50,6 +53,4 @@ if __name__ == '__main__':
 
     tree=Tree()
     tree.root=root
-    tree.preorder()
-    print("""""")
-    tree.preorderiter()
+    tree.postorderiter()

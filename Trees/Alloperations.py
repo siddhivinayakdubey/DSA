@@ -36,13 +36,44 @@ class Tree:
                 list.append(t2)
                 print(list)
 
+
     def preorder(self):
-        self.preorderecursion(self.root)
-    def preorderecursion(self,p):
+        if self.root is None:
+            print("Empty Tree")
+        else:
+            self.preorderstart(self.root)
+    def preorderstart(self,p):
         if p is not None:
             print(p.data)
-            self.preorderecursion(p.lchild)
-            self.preorderecursion(p.rchild)
+            self.preorderstart(p.lchild)
+            self.preorderstart(p.rchild)
+
+
+
+    def inorder(self):
+        if self.root is None:
+            print("Empty Tree")
+        else:
+            self.inorderstart(self.root)
+    def inorderstart(self,p):
+        if p is not None:
+            self.inorderstart(p.lchild)
+            print(p.data)
+            self.inorderstart(p.rchild)
+
+
+
+    def postorder(self):
+        if self.root is None:
+            print("Empty Tree")
+        else:
+            self.postorderstart(self.root)
+    def postorderstart(self,p):
+        if p is not None:
+            self.postorderstart(p.lchild)
+            self.postorderstart(p.rchild)
+            print(p.data)
+
 
 
 

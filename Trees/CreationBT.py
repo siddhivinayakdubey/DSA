@@ -37,7 +37,10 @@ class Tree:
                 print(list)
 
     def preorder(self):
-        self.preorderecursion(self.root)
+        if self.root is None:
+            print("Empty Tree")
+        else:           
+            self.preorderecursion(self.root)
     def preorderecursion(self,p):
         if p is not None:
             print(p.data)
