@@ -48,10 +48,15 @@ class Tree:
 
 if __name__ == '__main__':
     tree=Tree()
-    tree.create()
+    root=Node(8)
+    root.lchild=Node(3)
+    root.lchild.lchild=Node(4)
+    root.lchild.rchild=Node(9)
+    root.rchild=Node(5)
+    root.rchild.lchild=Node(7)
+    root.rchild.rchild=Node(2)
+
+    tree.root=root
     tree.preorder()
-
-
-
 
 
