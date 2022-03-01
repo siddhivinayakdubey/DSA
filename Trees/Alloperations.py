@@ -79,11 +79,13 @@ class Tree:
         p = self.root
         queue.append(p)
 
-        while queue[0] is not None:
+        while queue:
             p = queue.popleft()
             print(p.data)
-            queue.append(p.lchild)
-            queue.append(p.rchild)
+            if p.lchild is not None:
+                queue.append(p.lchild)
+            if p.rchild is not None:
+                queue.append(p.rchild)
 
 
 
