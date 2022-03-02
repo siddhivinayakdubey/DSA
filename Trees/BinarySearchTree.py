@@ -33,6 +33,29 @@ class Tree:
                         p.lchild=newnode
                         break
 
+
+    def bstinsertiontailing(self,data):
+        newnode=Node(data)
+
+        if self.root is None:
+            self.root=newnode
+        else:
+            p=self.root
+            while p:
+                r=p
+                if data==p.data:
+                    print("not possible try it again")
+                    break
+                if data>p.data:
+                    p=p.rchild
+                if data<p.data:
+                    p=p.lchild
+
+            if data>r.data:
+                r.rchild=newnode
+            else:
+                r.lchild=newnode
+
     def searchinbst(self,key):
         if self.root is None:
             print("Empty Tree")
