@@ -2,14 +2,11 @@ from typing import List
 
 def twoSum(nums: List[int], target: int) -> List[int]:
     values = {}
-    for idx, value in enumerate(nums):
-        print("1 : "+str(idx),value)
-        if target - value in values:
-            print("2 : "+str(target-value),value)
-            return [values[target - value], idx]
+    for i, v in enumerate(nums):
+        if target - v in values:
+            return [values[target - v], i]
         else:
-            values[value] = idx
-            print("3 : "+str(values))
+            values[v] = i
 
 arr=[2,11,7,15]
 target=9
