@@ -36,5 +36,5 @@ def solution(a):
             j=0
             i+=1
     return mini
-a=[1,2]
+a=[1,1,2,6,8]
 print(solution(a))
