@@ -6,13 +6,11 @@ def reverseInteger(x):
         r=n%10
         rev=rev*10+r
         n=n//10
-
     if rev>=math.pow(2,-31) and rev<=math.pow(2,31):
         if x<0:
             return -rev
         else:
             return rev
-
     else:
         return 0
 
