@@ -1,13 +1,10 @@
-from typing import List
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        dict={}
 
-def twoSum(nums: List[int], target: int) -> List[int]:
-    values = {}
-    for i, v in enumerate(nums):
-        if target - v in values:
-            return [values[target - v], i]
-        else:
-            values[v] = i
+        for i,x in enumerate(nums):
+            y= target - x
 
-arr=[2,11,7,15]
-target=9
-print(twoSum(arr,target))
+            if y in dict:
+                return [dict[y],i]
+            dict[x]=i
