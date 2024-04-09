@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp
+iostream
+/Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/iostream
+
