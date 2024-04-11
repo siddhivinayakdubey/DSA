@@ -66,27 +66,27 @@ include CMakeFiles/DSA.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DSA.dir/flags.make
 
-CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o: CMakeFiles/DSA.dir/flags.make
-CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o: ../Topic-Wise/Recursion/C++/TowerOfHanoi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/siddhivinayakdubey/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o -c /Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp
+CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.o: CMakeFiles/DSA.dir/flags.make
+CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.o: ../Topic-Wise/Recursion/C++/permutations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/siddhivinayakdubey/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.o -c /Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/permutations.cpp
 
-CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp > CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.i
+CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/permutations.cpp > CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.i
 
-CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp -o CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.s
+CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/permutations.cpp -o CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.s
 
 # Object files for target DSA
 DSA_OBJECTS = \
-"CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o"
+"CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.o"
 
 # External object files for target DSA
 DSA_EXTERNAL_OBJECTS =
 
-DSA: CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o
+DSA: CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.o
 DSA: CMakeFiles/DSA.dir/build.make
 DSA: CMakeFiles/DSA.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/siddhivinayakdubey/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DSA"

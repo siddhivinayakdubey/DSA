@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp">
+		<Unit filename="/Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/permutations.cpp">
 			<Option target="DSA"/>
 		</Unit>
 		<Unit filename="/Users/siddhivinayakdubey/DSA/CMakeLists.txt">
