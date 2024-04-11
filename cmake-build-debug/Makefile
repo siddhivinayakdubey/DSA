@@ -129,29 +129,29 @@ DSA/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/build
 .PHONY : DSA/fast
 
-Topic-Wise/Recursion/C++/TowerOfHanoi.o: Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o
-.PHONY : Topic-Wise/Recursion/C++/TowerOfHanoi.o
+Topic-Wise/Recursion/C++/permutations.o: Topic-Wise/Recursion/C++/permutations.cpp.o
+.PHONY : Topic-Wise/Recursion/C++/permutations.o
 
 # target to build an object file
-Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o
-.PHONY : Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o
+Topic-Wise/Recursion/C++/permutations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.o
+.PHONY : Topic-Wise/Recursion/C++/permutations.cpp.o
 
-Topic-Wise/Recursion/C++/TowerOfHanoi.i: Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.i
-.PHONY : Topic-Wise/Recursion/C++/TowerOfHanoi.i
+Topic-Wise/Recursion/C++/permutations.i: Topic-Wise/Recursion/C++/permutations.cpp.i
+.PHONY : Topic-Wise/Recursion/C++/permutations.i
 
 # target to preprocess a source file
-Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.i
-.PHONY : Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.i
+Topic-Wise/Recursion/C++/permutations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.i
+.PHONY : Topic-Wise/Recursion/C++/permutations.cpp.i
 
-Topic-Wise/Recursion/C++/TowerOfHanoi.s: Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.s
-.PHONY : Topic-Wise/Recursion/C++/TowerOfHanoi.s
+Topic-Wise/Recursion/C++/permutations.s: Topic-Wise/Recursion/C++/permutations.cpp.s
+.PHONY : Topic-Wise/Recursion/C++/permutations.s
 
 # target to generate assembly for a file
-Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.s
-.PHONY : Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.s
+Topic-Wise/Recursion/C++/permutations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.s
+.PHONY : Topic-Wise/Recursion/C++/permutations.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DSA"
-	@echo "... Topic-Wise/Recursion/C++/TowerOfHanoi.o"
-	@echo "... Topic-Wise/Recursion/C++/TowerOfHanoi.i"
-	@echo "... Topic-Wise/Recursion/C++/TowerOfHanoi.s"
+	@echo "... Topic-Wise/Recursion/C++/permutations.o"
+	@echo "... Topic-Wise/Recursion/C++/permutations.i"
+	@echo "... Topic-Wise/Recursion/C++/permutations.s"
 .PHONY : help
 
 

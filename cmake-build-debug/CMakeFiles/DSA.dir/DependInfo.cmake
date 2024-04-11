@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp" "/Users/siddhivinayakdubey/DSA/cmake-build-debug/CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/TowerOfHanoi.cpp.o"
+  "/Users/siddhivinayakdubey/DSA/Topic-Wise/Recursion/C++/permutations.cpp" "/Users/siddhivinayakdubey/DSA/cmake-build-debug/CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
