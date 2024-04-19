@@ -129,29 +129,29 @@ DSA/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/build
 .PHONY : DSA/fast
 
-Topic-Wise/Recursion/C++/permutations.o: Topic-Wise/Recursion/C++/permutations.cpp.o
-.PHONY : Topic-Wise/Recursion/C++/permutations.o
+Topic-Wise/Recursion/C++/inviteguests.o: Topic-Wise/Recursion/C++/inviteguests.cpp.o
+.PHONY : Topic-Wise/Recursion/C++/inviteguests.o
 
 # target to build an object file
-Topic-Wise/Recursion/C++/permutations.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.o
-.PHONY : Topic-Wise/Recursion/C++/permutations.cpp.o
+Topic-Wise/Recursion/C++/inviteguests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/inviteguests.cpp.o
+.PHONY : Topic-Wise/Recursion/C++/inviteguests.cpp.o
 
-Topic-Wise/Recursion/C++/permutations.i: Topic-Wise/Recursion/C++/permutations.cpp.i
-.PHONY : Topic-Wise/Recursion/C++/permutations.i
+Topic-Wise/Recursion/C++/inviteguests.i: Topic-Wise/Recursion/C++/inviteguests.cpp.i
+.PHONY : Topic-Wise/Recursion/C++/inviteguests.i
 
 # target to preprocess a source file
-Topic-Wise/Recursion/C++/permutations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.i
-.PHONY : Topic-Wise/Recursion/C++/permutations.cpp.i
+Topic-Wise/Recursion/C++/inviteguests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/inviteguests.cpp.i
+.PHONY : Topic-Wise/Recursion/C++/inviteguests.cpp.i
 
-Topic-Wise/Recursion/C++/permutations.s: Topic-Wise/Recursion/C++/permutations.cpp.s
-.PHONY : Topic-Wise/Recursion/C++/permutations.s
+Topic-Wise/Recursion/C++/inviteguests.s: Topic-Wise/Recursion/C++/inviteguests.cpp.s
+.PHONY : Topic-Wise/Recursion/C++/inviteguests.s
 
 # target to generate assembly for a file
-Topic-Wise/Recursion/C++/permutations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.s
-.PHONY : Topic-Wise/Recursion/C++/permutations.cpp.s
+Topic-Wise/Recursion/C++/inviteguests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/inviteguests.cpp.s
+.PHONY : Topic-Wise/Recursion/C++/inviteguests.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DSA"
-	@echo "... Topic-Wise/Recursion/C++/permutations.o"
-	@echo "... Topic-Wise/Recursion/C++/permutations.i"
-	@echo "... Topic-Wise/Recursion/C++/permutations.s"
+	@echo "... Topic-Wise/Recursion/C++/inviteguests.o"
+	@echo "... Topic-Wise/Recursion/C++/inviteguests.i"
+	@echo "... Topic-Wise/Recursion/C++/inviteguests.s"
 .PHONY : help
 
 
