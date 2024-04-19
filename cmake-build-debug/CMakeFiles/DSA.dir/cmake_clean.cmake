@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/permutations.cpp.o"
+  "CMakeFiles/DSA.dir/Topic-Wise/Recursion/C++/inviteguests.cpp.o"
   "DSA"
   "DSA.pdb"
 )

@@ -7,7 +7,7 @@ include_directories(Topic-Wise/Logical/C++)
 
 add_executable(DSA
 
-         Topic-Wise/Recursion/C++/permutations.cpp)
+         Topic-Wise/Recursion/C++/inviteguests.cpp)
 #Topic-Wise/LinkedList/C++/deletinginalinkedlist.cpp
 #Topic-Wise/LinkedList/C++/AllOperations-Singly.cpp
 #        Topic-Wise/Array/C++/ArrayIntro.cpp
